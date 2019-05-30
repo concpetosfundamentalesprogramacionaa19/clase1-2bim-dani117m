@@ -24,7 +24,7 @@ public class Ejemplo31 {
         boolean salida = true;
         int[] datos = new int[6];
         String[] rangos = {"0-8", "8.1-12", "12.1-16", "16.1-19","19.1-20",
-            "20.1-inf"};// el rango es de 5 
+            "20.1- en adelante "};// el rango es de 5 
         
         while (salida){
             System.out.println("Ingrese la nota");
@@ -57,10 +57,10 @@ public class Ejemplo31 {
             }   
         }        
          
-        System.out.println("Resultados");// se imprimen los resultados 
+        System.out.println("Notas ingresadas :");// se imprimen los resultados 
         // se usa for para mostras los datos almacenados  
         for(int i = 0; i<datos.length; i++){
-            System.out.printf("Ventas en %s - %d\n", rangos[i], datos[i]);
+            System.out.printf("Notas en %s = %d\n", rangos[i], datos[i]);
             
         }
     }
