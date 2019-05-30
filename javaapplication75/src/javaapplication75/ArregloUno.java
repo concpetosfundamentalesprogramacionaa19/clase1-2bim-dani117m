@@ -26,7 +26,7 @@ public class ArregloUno {
         
         
     System.out.printf("%d + %d = %d \n",c[1],c[4],c[1]+ c[4]); 
-    System.out.printf("El tamaño del arreglo es : %d\n",c.length);
+    System.out.printf("El tamaño del arreglo es : %d\n",c.length);//tamaño del arreglo
     }
     
 }

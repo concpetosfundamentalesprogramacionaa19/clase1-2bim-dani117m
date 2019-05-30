@@ -16,7 +16,7 @@ public class ArregloSeis {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-
+        // para minimisar errores ejecutar en ciclo separados al usar for 
         int[] c = new int[10]; // declaramos la variable
         System.out.println("-----------------------------------------------");
         for (int contador = 0; contador < c.length; contador++) {

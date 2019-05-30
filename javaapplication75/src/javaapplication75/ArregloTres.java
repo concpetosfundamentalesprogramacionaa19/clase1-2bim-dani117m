@@ -22,7 +22,7 @@ public class ArregloTres {
 
         System.out.printf("%s\t\t%s\n", "Indice", "Valor");
 
-        for (int contador = 0; contador < c.length; contador++) {
+        for (int contador = 0; contador < c.length; contador++) {//se utiliza c.length para que el contador acabe en el numero de arreglos
             System.out.printf("%d\t\t%d\n", contador, c[contador]);
         }
     }

@@ -16,13 +16,17 @@ public class ArregloCinco {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-
+        // como en la clase tres, con diferencia a que ahora se el agrega valores  
         int[] c = {10, 20, 30, 40}; // declaramos la variable
-      
-        System.out.printf("%s\t\t%s\n", "Indice", "Valor");
-
+        double operacion = 0;
+        
+        System.out.printf("%s\t\t%s\t\t%s\n", "Indice", "Valor", "Resultado");
+        
+        // ahora se mostrara la posicion con el valor 
         for (int contador = 0; contador < c.length; contador++) {
-            System.out.printf("%d\t\t%d\n", contador, c[contador]);
+            operacion = Math.pow(c[contador],2) ;//elevando cada valor a 2 
+            System.out.printf("%d\t\t%d\t\t%.2f\n", contador, c[contador], 
+                    operacion);
         }
     }
 
